@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "time-pieter-linde-profile",
+    "site": "pieter-linde-sites",
     "public": "dist",
     "ignore": [
       "firebase.json",
