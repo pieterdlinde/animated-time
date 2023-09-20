@@ -1,0 +1,2240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="90" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <editorsettings>
+  <export target="public/tiles/main-landing-page.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Overworld" tilewidth="16" tileheight="16" tilecount="1440" columns="40">
+  <image source="public/tiles/Overworld.png" width="640" height="576"/>
+  <tile id="6">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="142">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="144">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="158">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="159">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="173">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="174">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="179">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="194">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="195">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="196">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="205">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="224">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="226">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="229">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="232">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="234">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="235">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="236">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="237">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="238">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="239">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="254">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="258">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="259">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="260">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="266">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="267">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="268">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="269">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="270">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="293">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="294">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="298">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="299">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="305">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="307">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="308">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="309">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="310">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="311">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="312">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="313">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="314">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="315">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="316">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="317">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="318">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="319">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="338">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="339">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="340">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="345">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="352">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="353">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="354">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="355">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="356">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="358">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="359">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="369">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="370">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="371">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="372">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="373">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="382">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="383">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="384">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="385">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="386">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="387">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="388">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="389">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="390">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="391">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="392">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="393">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="394">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="395">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="396">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="397">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="399">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="409">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="410">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="411">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="412">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="413">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="422">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="423">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="424">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="425">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="426">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="427">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="428">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="429">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="430">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="449">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="450">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="451">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="452">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="453">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="462">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="463">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="464">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="465">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="466">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="467">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="468">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="469">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="470">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="489">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="490">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="491">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="492">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="493">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="521">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="522">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="523">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="560">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="561">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="562">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="563">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="600">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="601">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="602">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="603">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="640">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="641">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="645">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="646">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="680">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="681">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="682">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="683">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="684">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="685">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="686">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="720">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="721">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="722">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="723">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="724">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="760">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="761">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="762">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="840">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="841">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="842">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="880">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="881">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="882">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="883">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="884">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="885">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="886">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="887">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="888">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="889">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="898">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="899">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="900">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="901">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="902">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="905">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="906">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="907">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="908">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="909">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="920">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="921">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="922">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="923">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="924">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="925">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="926">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="927">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="928">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="929">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="938">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="939">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="940">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="941">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="942">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="960">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="961">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="962">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="963">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="964">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="965">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="966">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="967">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="968">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="969">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="978">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="979">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="980">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="981">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="982">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1000">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1001">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1002">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1003">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1004">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1005">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1006">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1007">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1008">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1009">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1018">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1019">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1020">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1021">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1022">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1040">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1041">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1042">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1043">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1044">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1045">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1046">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1047">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1048">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1049">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1058">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1059">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1060">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1061">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1062">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1065">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1066">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1067">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1068">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1069">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1080">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1081">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1082">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1087">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1088">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1098">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1099">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1100">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1101">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1102">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1105">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1106">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1107">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1108">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1109">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1120">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1121">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1122">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1127">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1128">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1139">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1143">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1145">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1146">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1147">
+   <properties>
+    <property name="ge_collide" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1148">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1149">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1179">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1183">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1219">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1223">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1259">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1263">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1299">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1303">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1441" name="objects" tilewidth="16" tileheight="16" tilecount="660" columns="33">
+  <image source="public/tiles/objects.png" width="528" height="320"/>
+  <tile id="20">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="ge_collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="water" width="90" height="60">
+  <data encoding="csv">
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,376,337,337,337,337,337,337,337,337,337,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1161,1162,1162,1162,1162,1162,1162,1162,1162,1162,1162,1163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1201,1202,1202,1202,1202,1202,1202,1202,1202,1202,1202,1203,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1201,1202,1202,1202,1202,1202,1202,1202,1202,1202,1202,1203,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1201,1202,1202,1202,1202,1202,1202,1202,1202,1202,1202,1203,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1042,1,1,1,1,1,1,1,1,1,1,1,1,1,1241,1242,1242,1242,1242,1242,1242,1242,1242,1242,1242,1243,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,298,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,
+300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300
+</data>
+ </layer>
+ <layer id="2" name="land" width="90" height="60">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,884,885,886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,924,925,926,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,376,337,337,337,964,965,966,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,337,377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,522,523,523,1004,1005,1006,523,523,524,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,202,242,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,1044,1045,1046,1,1,564,1,1,1,1,1,1,1,1,1,1201,214,215,214,215,214,215,214,215,214,215,1203,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,961,962,963,1,1,564,1,1,1,1,1,1,1,1,1,1201,254,255,254,255,254,255,254,255,254,255,1203,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,1001,1002,1003,1,1,564,1,1,1,1,1,1,1,1,1,1201,294,295,294,295,294,295,294,295,294,295,1203,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,1041,306,1043,1,1,564,1,1,1,1,1,1,1,1,1,1241,1242,1242,1242,1242,1242,1242,1242,1242,1242,1242,1243,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,1081,346,1083,1,1,564,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,243,244,245,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,1121,1122,1123,1,1,564,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,283,284,285,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,562,1,1,1,1,1,1,1,564,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,283,284,285,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,602,642,1,1,1,1,1,641,604,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,323,324,325,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,383,384,385,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,423,424,425,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,463,464,465,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,899,900,901,902,903,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,939,940,941,942,943,1,1,1,7,8,9,10,11,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,979,980,981,982,983,1,1,1,47,48,49,50,51,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1019,1020,1021,1022,1023,1,1,1,87,88,89,90,91,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1059,1060,1061,1062,1063,1,1,73,127,128,129,130,131,189,191,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1099,1100,1101,1102,1103,1,1,113,167,168,169,170,171,229,231,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,906,907,1,1,1,1,1,909,910,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,946,947,948,948,948,948,948,949,950,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,986,987,988,988,988,988,988,989,990,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1026,1027,1028,1028,1028,1028,1028,1029,1030,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1066,1067,1068,1068,1068,1068,1068,1069,1070,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1106,1107,1,1,1,1,1,1109,1110,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,163,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1146,1147,1,1,1,1,1,1149,1150,1,1,1,1,1,161,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,281,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,282,296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
