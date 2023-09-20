@@ -1,17 +1,5 @@
 {
-  "hosting": {
-    "site": "time-pieter-linde",
-    "public": "dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+  "projects": {
+    "default": "pieter-linde-sites"
   }
 }
