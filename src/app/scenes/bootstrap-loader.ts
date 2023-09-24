@@ -13,7 +13,7 @@ export default class BootstrapLoader extends Scene{
         // MapSetup.LoadMap(Maps.HouseMap, this)
         PlayerSetup.LoadPlayer(Players.Hero, this); 
 
-        for (let index = 1; index < 60; index++) {
+        for (let index = 1; index <= 60; index++) {
            PlayerSetup.LoadPlayerByName("dummy"+index,'tiles/character.png' , this);
         }  
     }
