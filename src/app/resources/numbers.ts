@@ -65,21 +65,21 @@ export function createLetterAll(gridEngine: GridEngineExtender, charName: string
 
 export function createLetter1(gridEngine: GridEngineExtender, charName: string[], x: number, y: number) {
     if (charName.length === 15) {
-        gridEngine.moveRandomly(charName[0],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[0],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[1], { x: 16 + x, y: 15 + y })
-        gridEngine.moveRandomly(charName[2],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[2],getRandomInt(20, 400),30)
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
         gridEngine.moveTo(charName[4], { x: 16 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[5],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[5],getRandomInt(20, 400),30)
 
-        gridEngine.moveRandomly(charName[6],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[6],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[7], { x: 16 + x, y: 17 + y })
-        gridEngine.moveRandomly(charName[8],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[8],getRandomInt(20, 400),30)
 
-        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[10], { x: 16 + x, y: 18 + y })
-        gridEngine.moveRandomly(charName[11],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[11],getRandomInt(20, 400),30)
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
         gridEngine.moveTo(charName[13], { x: 16 + x, y: 19 + y })
@@ -96,8 +96,8 @@ export function createLetter2(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[1], { x: 16 + x, y: 15 + y })
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
-        gridEngine.moveRandomly(charName[3],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[3],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
@@ -105,8 +105,8 @@ export function createLetter2(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
         gridEngine.moveTo(charName[9], { x: 15 + x, y: 18 + y })
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[11],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[11],getRandomInt(20, 400),30)
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
         gridEngine.moveTo(charName[13], { x: 16 + x, y: 19 + y })
@@ -122,16 +122,16 @@ export function createLetter3(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[1], { x: 16 + x, y: 15 + y })
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
-        gridEngine.moveRandomly(charName[3],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[3],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
         gridEngine.moveTo(charName[7], { x: 16 + x, y: 17 + y })
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
-        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
@@ -145,23 +145,23 @@ export function createLetter3(gridEngine: GridEngineExtender, charName: string[]
 export function createLetter4(gridEngine: GridEngineExtender, charName: string[], x: number, y: number) {
     if (charName.length === 15) {
         gridEngine.moveTo(charName[0], { x: 15 + x, y: 15 + y })
-        gridEngine.moveRandomly(charName[1],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[1],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
         gridEngine.moveTo(charName[7], { x: 16 + x, y: 17 + y })
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
-        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
-        gridEngine.moveRandomly(charName[12],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[13],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[12],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[13],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[14], { x: 17 + x, y: 19 + y })
     } else {
         console.error("Needs to be 15 people")
@@ -175,15 +175,15 @@ export function createLetter5(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[5],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[5],getRandomInt(20, 400),30)
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
         gridEngine.moveTo(charName[7], { x: 16 + x, y: 17 + y })
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
-        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
@@ -201,15 +201,15 @@ export function createLetter6(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[5],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[5],getRandomInt(20, 400),30)
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
         gridEngine.moveTo(charName[7], { x: 16 + x, y: 17 + y })
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
         gridEngine.moveTo(charName[9], { x: 15 + x, y: 18 + y })
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
@@ -226,20 +226,20 @@ export function createLetter7(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[1], { x: 16 + x, y: 15 + y })
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
-        gridEngine.moveRandomly(charName[3],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[3],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
-        gridEngine.moveRandomly(charName[6],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[7],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[6],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[7],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
-        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
-        gridEngine.moveRandomly(charName[12],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[13],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[12],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[13],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[14], { x: 17 + x, y: 19 + y })
     } else {
         console.error("Needs to be 15 people")
@@ -253,7 +253,7 @@ export function createLetter8(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
@@ -261,7 +261,7 @@ export function createLetter8(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
         gridEngine.moveTo(charName[9], { x: 15 + x, y: 18 + y })
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
@@ -279,15 +279,15 @@ export function createLetter9(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
         gridEngine.moveTo(charName[7], { x: 16 + x, y: 17 + y })
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
-        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),-1)
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[9],getRandomInt(20, 400),30)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
@@ -305,15 +305,15 @@ export function createLetter0(gridEngine: GridEngineExtender, charName: string[]
         gridEngine.moveTo(charName[2], { x: 17 + x, y: 15 + y })
 
         gridEngine.moveTo(charName[3], { x: 15 + x, y: 16 + y })
-        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[4],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[5], { x: 17 + x, y: 16 + y })
 
         gridEngine.moveTo(charName[6], { x: 15 + x, y: 17 + y })
-        gridEngine.moveRandomly(charName[7],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[7],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[8], { x: 17 + x, y: 17 + y })
 
         gridEngine.moveTo(charName[9], { x: 15 + x, y: 18 + y })
-        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),-1)
+        gridEngine.moveRandomly(charName[10],getRandomInt(20, 400),30)
         gridEngine.moveTo(charName[11], { x: 17 + x, y: 18 + y })
 
         gridEngine.moveTo(charName[12], { x: 15 + x, y: 19 + y })
