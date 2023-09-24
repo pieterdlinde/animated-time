@@ -8,7 +8,7 @@ import { createNumber } from "../resources/numbers";
 export default class MainGame extends Scene {
     private gridEngine!: GridEngineExtender;
     private isShowingTime = false;
-    private updateTime:number;
+    private updateTime:number = 0;;
 
     constructor() {
         super('maingame')
