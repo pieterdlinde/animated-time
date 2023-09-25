@@ -20,7 +20,7 @@ export class Players {
     frameHeight: 32,
     frameWidth: 16,
     walkingAnimationMapping: 0,
-    startPosition: { x: 10, y: 1 },
+    startPosition: { x: 15, y: 30 },
   };  
 }
 

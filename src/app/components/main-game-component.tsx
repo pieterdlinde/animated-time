@@ -20,11 +20,11 @@ const MainGameComponent = ({ width, height }: { width: number, height: number })
                 render: {
                     antialias: true,
                 },
-                width: width,
-                height: height,
+                width: width/2,
+                height: height/2,
                 pixelArt: false,
                 scale: {
-                    zoom: 1,
+                    zoom: 2,
                 },
                 scene: [
                     BootstrapLoader,
