@@ -7,11 +7,8 @@ import { createNumber, getRandomInt } from "../resources/numbers";
 
 export default class MainGame extends Scene {
     private gridEngine!: GridEngineExtender;
-    private showTime = false;
-    private updateTime: number = 0;
-    private updateSeconds: number = 0;
-    private updateSeconds1: number = 0;
-    private randomMovement = false;
+    private showTime = false; 
+    private updateDate: Date = new Date(); 
 
     constructor() {
         super('maingame')
@@ -71,55 +68,53 @@ export default class MainGame extends Scene {
 
         const date = new Date();
 
-        if(this.updateSeconds1 + 10 <= date.getSeconds()){
-            this.updateSeconds1 = date.getSeconds();
+        if (this.updateDate <= date) {
+            date.setSeconds(date.getSeconds() + 15)
+            this.updateDate = new Date(date);
             this.showTime = !this.showTime
-        }
 
-        if (this.showTime && (this.updateSeconds + 5 <= date.getSeconds() || this.updateTime != date.getMinutes())) {
-            this.randomMovement = false;
-            this.updateTime = date.getMinutes();
-            this.updateSeconds = date.getSeconds();
-            const hours = date.getHours();
-            const minutes = date.getMinutes();
 
-            let space1: string[] = [];
-            let space2: string[] = [];
-            let space3: string[] = [];
-            let space4: string[] = [];
-            for (let index = 1; index <= 15; index++) {
-                space1.push("dummy" + index);
-            }
-            for (let index = 16; index <= 30; index++) {
-                space2.push("dummy" + index);
-            }
-            for (let index = 31; index <= 45; index++) {
-                space3.push("dummy" + index);
-            }
-            for (let index = 46; index <= 60; index++) {
-                space4.push("dummy" + index);
-            }
+            if (this.showTime) { 
+                const hours = date.getHours();
+                const minutes = date.getMinutes();
 
-            if (hours >= 10) {
-                createNumber(Number(hours.toString()[0]), this.gridEngine, space1, 0, 0)
-                createNumber(Number(hours.toString()[1]), this.gridEngine, space2, 4, 0)
-            } else {
-                createNumber(0, this.gridEngine, space1, 0, 0)
-                createNumber(Number(hours.toString()[0]), this.gridEngine, space2, 4, 0)
-            }
+                let space1: string[] = [];
+                let space2: string[] = [];
+                let space3: string[] = [];
+                let space4: string[] = [];
+                for (let index = 1; index <= 15; index++) {
+                    space1.push("dummy" + index);
+                }
+                for (let index = 16; index <= 30; index++) {
+                    space2.push("dummy" + index);
+                }
+                for (let index = 31; index <= 45; index++) {
+                    space3.push("dummy" + index);
+                }
+                for (let index = 46; index <= 60; index++) {
+                    space4.push("dummy" + index);
+                }
 
-            if (minutes >= 10) {
-                createNumber(Number(minutes.toString()[0]), this.gridEngine, space3, 8, 0)
-                createNumber(Number(minutes.toString()[1]), this.gridEngine, space4, 12, 0)
-            } else {
-                createNumber(0, this.gridEngine, space3, 8, 0)
-                createNumber(Number(minutes.toString()[0]), this.gridEngine, space4, 12, 0)
+                if (hours >= 10) {
+                    createNumber(Number(hours.toString()[0]), this.gridEngine, space1, 0, 0)
+                    createNumber(Number(hours.toString()[1]), this.gridEngine, space2, 4, 0)
+                } else {
+                    createNumber(0, this.gridEngine, space1, 0, 0)
+                    createNumber(Number(hours.toString()[0]), this.gridEngine, space2, 4, 0)
+                }
+
+                if (minutes >= 10) {
+                    createNumber(Number(minutes.toString()[0]), this.gridEngine, space3, 10, 0)
+                    createNumber(Number(minutes.toString()[1]), this.gridEngine, space4, 14, 0)
+                } else {
+                    createNumber(0, this.gridEngine, space3, 10, 0)
+                    createNumber(Number(minutes.toString()[0]), this.gridEngine, space4, 14, 0)
+                }
             }
-        }
-        if (this.showTime === false && this.randomMovement === false) {
-            this.randomMovement = true;
-            for (let index = 1; index <= 60; index++) {
-                this.gridEngine.moveRandomly("dummy" + index, getRandomInt(this.gridEngine,"dummy" + index,10, 500), 30)
+            if (!this.showTime) { 
+                for (let index = 1; index <= 60; index++) {
+                    this.gridEngine.moveRandomly("dummy" + index, getRandomInt(this.gridEngine, "dummy" + index, 10, 500), 30)
+                }
             }
         }
 

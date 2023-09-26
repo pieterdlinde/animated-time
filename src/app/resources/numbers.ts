@@ -1,7 +1,7 @@
 import { GridEngineExtender } from "../extenders/grid-engine-extender"
 
-const startX = 30;
-const startY = 30;
+const startX = 35;
+const startY = 33;
 
 /**
 * Gets random int
