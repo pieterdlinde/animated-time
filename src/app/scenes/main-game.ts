@@ -12,6 +12,7 @@ export default class MainGame extends Scene {
 
     constructor() {
         super('maingame')
+        this.updateDate.setSeconds(this.updateDate.getSeconds() + 15)
     }
 
     preload() {
@@ -58,8 +59,9 @@ export default class MainGame extends Scene {
         this.cameras.main.setFollowOffset(-heroSprite.width, -heroSprite.height);
         this.gridEngine.create(mainMap, gridEngineConfig);
 
-
-
+        for (let index = 1; index <= 60; index++) {
+            this.gridEngine.moveRandomly("dummy" + index, getRandomInt(this.gridEngine, "dummy" + index, 10, 500), 30)
+        }
     }
 
     update() {
